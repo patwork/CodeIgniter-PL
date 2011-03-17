@@ -3,12 +3,15 @@
 $lang['alpha']              = "Pole %s może zawierać tylko litery.";
 $lang['alpha_dash']         = "Pole %s może zawierać tylko litery, cyfry, podkreślenia i myślniki.";
 $lang['alpha_numeric']      = "Pole %s może zawierać tylko litery i cyfry.";
+$lang['decimal']            = "Pole %s musi zawierać liczbę dziesiętną.";
 $lang['exact_length']       = "Pole %s musi zawierać dokładnie %s znaków.";
+$lang['greater_than']       = "Pole %s musi zawierać liczbę większą niż %s.";
 $lang['integer']            = "Pole %s musi zawierać liczbę całkowitą.";
 $lang['is_natural']         = "Pole %s musi zawierać liczbę naturalną.";
 $lang['is_natural_no_zero'] = "Pole %s musi zawierać liczbę większą od zera.";
 $lang['is_numeric']         = "Pole %s musi zawierać liczbę.";
 $lang['isset']              = "Pole %s musi mieć wartość.";
+$lang['less_than']          = "Pole %s musi zawierać liczbę mniejszą niż %s.";
 $lang['matches']            = "Pole %s ma inną wartość niż pole %s.";
 $lang['max_length']         = "Pole %s nie może zawierać więcej niż %s znaków.";
 $lang['min_length']         = "Pole %s musi zawierać co najmniej %s znaków.";
