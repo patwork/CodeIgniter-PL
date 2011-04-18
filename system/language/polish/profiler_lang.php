@@ -16,6 +16,9 @@ $lang['profiler_no_queries']      = "Żadne zapytania nie zostały wywołane";
 $lang['profiler_no_uri']          = "Brak danych URI";
 $lang['profiler_post_data']       = "DANE POST";
 $lang['profiler_queries']         = "ZAPYTANIA";
+$lang['profiler_section_hide']    = "Ukryj";
+$lang['profiler_section_show']    = "Pokaż";
+$lang['profiler_session_data']    = "ZMIENNE SESJI";
 $lang['profiler_uri_string']      = "ADRES URI";
 
 /* End of file profiler_lang.php */
