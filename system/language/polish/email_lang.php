@@ -1,4 +1,13 @@
 <?php
+/**
+ * CodeIgniter Polish language pack
+ *
+ * @package		CodeIgniter
+ * @author		patwork@gmail.com (originally sin@sinsoft.pl)
+ * @license		http://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
+ * @link		https://github.com/patwork/CodeIgniter-PL
+ * @since		Version 1.0
+ */
 
 $lang['email_attachment_missing']    = "Nie można odnaleźć załącznika wiadomości email: %s";
 $lang['email_attachment_unreadable'] = "Nie można otworzyć załącznika: %s";

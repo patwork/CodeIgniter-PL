@@ -1,4 +1,13 @@
 <?php
+/**
+ * CodeIgniter Polish language pack
+ *
+ * @package		CodeIgniter
+ * @author		patwork@gmail.com (originally sin@sinsoft.pl)
+ * @license		http://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
+ * @link		https://github.com/patwork/CodeIgniter-PL
+ * @since		Version 1.0
+ */
 
 $lang['ftp_no_connection']       = "Nie można odnaleźć poprawnego ID połączenia.Upewnij się, że jesteś połączony.";
 $lang['ftp_no_source_file']      = "Nie można odnaleźć pliku źródłowego.Sprawdź ścieżkę.";

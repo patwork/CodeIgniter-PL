@@ -1,9 +1,10 @@
 #!/usr/bin/php
 <?php
-// CodeIgniter language check v1.0
+// CodeIgniter language check v1.1
 // wto, 15 lut 2011
+// pon, 02 kwi 2012 - CI 2.0+
 
-define('DIR_LANGUAGE', '../system/language');
+define('DIR_LANGUAGE', './system/language');
 define('DEF_LANGUAGE', 'english');
 runme();
 

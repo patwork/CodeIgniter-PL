@@ -1,4 +1,13 @@
 <?php
+/**
+ * CodeIgniter Polish language pack
+ *
+ * @package		CodeIgniter
+ * @author		patwork@gmail.com (originally sin@sinsoft.pl)
+ * @license		http://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
+ * @link		https://github.com/patwork/CodeIgniter-PL
+ * @since		Version 1.0
+ */
 
 $lang['db_batch_missing_index']        = "Jeden lub więcej rekordów przekazanych do operacji seryjnej nie posiada wymaganego indeksu.";
 $lang['db_column_definition_required'] = "Definicja kolumny jest wymagana aby wykonać tą operację.";

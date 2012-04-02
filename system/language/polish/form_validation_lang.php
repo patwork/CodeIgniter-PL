@@ -1,4 +1,13 @@
 <?php
+/**
+ * CodeIgniter Polish language pack
+ *
+ * @package		CodeIgniter
+ * @author		patwork@gmail.com (originally sin@sinsoft.pl)
+ * @license		http://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
+ * @link		https://github.com/patwork/CodeIgniter-PL
+ * @since		Version 1.0
+ */
 
 $lang['alpha']              = "Pole %s może zawierać tylko litery.";
 $lang['alpha_dash']         = "Pole %s może zawierać tylko litery, cyfry, podkreślenia i myślniki.";

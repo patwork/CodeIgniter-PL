@@ -1,10 +1,11 @@
 #!/usr/bin/php
 <?php
-// CodeIgniter language clean v1.0
+// CodeIgniter language clean v1.1
 // wto, 15 lut 2011
+// pon, 02 kwi 2012 - CI 2.0+
 
 define('DEF_LANGUAGE', 'polish');
-define('DIR_LANGUAGE', '../system/language/'.DEF_LANGUAGE);
+define('DIR_LANGUAGE', './system/language/'.DEF_LANGUAGE);
 runme();
 
 function showspaces($count)
@@ -52,7 +53,16 @@ function cleanfile($filename)
 
 	$tmpname = tempnam('.', '.clean');
 	$tmp = fopen($tmpname, 'w');
-	fwrite($tmp, "<?php\n\n");
+	fwrite($tmp, "<?php\n");
+	fwrite($tmp, "/**\n");
+	fwrite($tmp, " * CodeIgniter Polish language pack\n");
+	fwrite($tmp, " *\n");
+	fwrite($tmp, " * @package		CodeIgniter\n");
+	fwrite($tmp, " * @author		patwork@gmail.com (originally sin@sinsoft.pl)\n");
+	fwrite($tmp, " * @license		http://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)\n");
+	fwrite($tmp, " * @link		https://github.com/patwork/CodeIgniter-PL\n");
+	fwrite($tmp, " * @since		Version 1.0\n");
+	fwrite($tmp, " */\n\n");
 
 	foreach($arr as $key => $val) {
 		fwrite($tmp, sprintf("\$lang['%s'] %s= \"%s\";\n", $key, showspaces($maxlen - strlen($key)), addslashes(cleanstring($val))));

@@ -1,4 +1,13 @@
 <?php
+/**
+ * CodeIgniter Polish language pack
+ *
+ * @package		CodeIgniter
+ * @author		patwork@gmail.com (originally sin@sinsoft.pl)
+ * @license		http://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
+ * @link		https://github.com/patwork/CodeIgniter-PL
+ * @since		Version 1.0
+ */
 
 $lang['upload_bad_filename']            = "Plik o podane nazwie już istnieje.";
 $lang['upload_destination_error']       = "Wystąpił błąd podczas próby przeniesienia wgranego pliku do docelowej lokalizacji.";
