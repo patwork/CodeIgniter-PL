@@ -13,6 +13,7 @@ $lang['alpha']                 = "Pole %s może zawierać tylko litery.";
 $lang['alpha_dash']            = "Pole %s może zawierać tylko litery, cyfry, podkreślenia i myślniki.";
 $lang['alpha_numeric']         = "Pole %s może zawierać tylko litery i cyfry.";
 $lang['decimal']               = "Pole %s musi zawierać liczbę dziesiętną.";
+$lang['differs']               = "Pole %s musi zawierać wartość inną niż pole %s.";
 $lang['exact_length']          = "Pole %s musi zawierać dokładnie %s znaków.";
 $lang['greater_than']          = "Pole %s musi zawierać liczbę większą niż %s.";
 $lang['greater_than_equal_to'] = "Pole %s musi zawierać liczbę większą lub równą %s.";
