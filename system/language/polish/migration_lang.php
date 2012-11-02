@@ -8,14 +8,15 @@
  * @link		https://github.com/patwork/CodeIgniter-PL
  * @since		Version 1.0
  */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['migration_class_doesnt_exist']  = "Klasa migracji \"%s\" nie może być znaleziona.";
-$lang['migration_invalid_filename']    = "Migracja \"%s\" ma błędną nazwę pliku.";
-$lang['migration_missing_down_method'] = "Klasa migracji \"%s\" nie posiada metody \"down\".";
-$lang['migration_missing_up_method']   = "Klasa migracji \"%s\" nie posiada metody \"up\".";
-$lang['migration_multiple_version']    = "Znaleziono kilka migracji o tym samym numerze: %d.";
-$lang['migration_none_found']          = "Nie znaleziono żadnej migracji.";
-$lang['migration_not_found']           = "Rządana migracja nie może być znaleziona.";
+$lang['migration_none_found']          = 'Nie znaleziono żadnej migracji.';
+$lang['migration_not_found']           = 'Rządana migracja nie została znaleziona.';
+$lang['migration_multiple_version']    = 'Znaleziono kilka migracji o tym samym numerze: %d.';
+$lang['migration_class_doesnt_exist']  = 'Klasa migracji "%s" nie została znaleziona.';
+$lang['migration_missing_up_method']   = 'Klasa migracji "%s" nie posiada metody "up".';
+$lang['migration_missing_down_method'] = 'Klasa migracji "%s" nie posiada metody "down".';
+$lang['migration_invalid_filename']    = 'Migracja "%s" posiada błędną nazwę pliku.';
 
 /* End of file migration_lang.php */
 /* Location: ./system/language/polish/migration_lang.php */
