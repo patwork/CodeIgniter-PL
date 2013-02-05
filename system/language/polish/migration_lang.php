@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $lang['migration_none_found']          = 'Nie znaleziono żadnej migracji.';
 $lang['migration_not_found']           = 'Rządana migracja nie została znaleziona.';
-$lang['migration_sequence_gap']        = 'Napotkano na lukę w sekwencji migracji przy numerze: %d.';
+$lang['migration_sequence_gap']        = 'Napotkano lukę w sekwencji migracji przy numerze: %d.';
 $lang['migration_multiple_version']    = 'Znaleziono kilka migracji o tym samym numerze: %d.';
 $lang['migration_class_doesnt_exist']  = 'Klasa migracji "%s" nie została znaleziona.';
 $lang['migration_missing_up_method']   = 'Klasa migracji "%s" nie posiada metody "up".';
