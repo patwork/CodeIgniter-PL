@@ -21,6 +21,7 @@ $lang['form_validation_max_length']            = 'Pole {field} nie może zawiera
 $lang['form_validation_exact_length']          = 'Pole {field} musi zawierać dokładnie {param} znaków.';
 $lang['form_validation_alpha']                 = 'Pole {field} może zawierać tylko litery.';
 $lang['form_validation_alpha_numeric']         = 'Pole {field} może zawierać tylko litery i cyfry.';
+$lang['form_validation_alpha_numeric_spaces']  = 'Pole {field} musi zawierać tylko litery, cyfry i spacje.';
 $lang['form_validation_alpha_dash']            = 'Pole {field} może zawierać tylko litery, cyfry, podkreślenia i myślniki.';
 $lang['form_validation_numeric']               = 'Pole {field} musi zawierać liczbę.';
 $lang['form_validation_is_numeric']            = 'Pole {field} musi zawierać liczbę.';
