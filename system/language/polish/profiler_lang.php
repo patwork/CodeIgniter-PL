@@ -30,6 +30,7 @@ $lang['profiler_no_memory']       = 'Użycie pamięci niedostępne';
 $lang['profiler_no_profiles']     = 'Brak danych dla Profilera - wszystkie sekcje zostały wyłączone.';
 $lang['profiler_section_hide']    = 'Ukryj';
 $lang['profiler_section_show']    = 'Pokaż';
+$lang['profiler_seconds']         = 'sekund';
 
 /* End of file profiler_lang.php */
 /* Location: ./system/language/polish/profiler_lang.php */
